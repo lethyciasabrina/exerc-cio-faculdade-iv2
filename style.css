@@ -1,0 +1,93 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#primeiro-paragrafo{
+    display: flex;
+    padding: 5%;
+    background: #aa3beb;
+}
+
+#primeiro-paragrafo div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#primeiro-paragrafo p{
+    text-align: justify;
+    width: 30%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+#primeiro-paragrafo p:hover{
+    color: #fffffffa;
+}
+
+#primeiro-paragrafo img{
+    width: 500px;
+    height: 300px;
+}
+
+#primeiro-paragrafo img:hover{
+    transition: 300ms ease-in-out;
+    width: 30%;
+    height: 50%;
+}
+
+#segundo-paragrafo{
+    display: flex;
+    padding: 5%;
+    background:#ec1b1b;
+}
+
+#segundo-paragrafo div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#segundo-paragrafo p{
+    text-align: justify;
+    width: 30%;
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+#segundo-paragrafo p:hover{
+    color: #040361;
+}
+
+#segundo-paragrafo img{
+    width: 500px;
+    height: 300px;
+}
+
+#segundo-paragrafo img:hover{
+    transition: 300ms ease-in-out;
+    width: 30%;
+    height: 80%;
+}
+
+#link1{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+#link1 a{
+    border: 1px solid #070803;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 20px 20px;
+    color: #fafafa;
+    background: #e70f0f;
+    transition: all 0.6s ease;
+}
+
+#link1 a:hover{
+    background: transparent;
+    color: #1141c4;
+}
